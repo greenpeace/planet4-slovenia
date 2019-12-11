@@ -4,19 +4,19 @@
       "label": "Planet4 Slovenia act page",
       "url": "https://APP_HOSTNAME/APP_HOSTPATH/ukrepaj/",
       "delay": 3000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 1.5
     },
     {
       "label": "Planet4 Slovenia explore page",
       "url": "https://APP_HOSTNAME/APP_HOSTPATH/razisci/",
       "delay": 3000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 1.5
     },
     {
       "label": "Planet4 Slovenia privacy and cookies page",
       "url": "https://APP_HOSTNAME/APP_HOSTPATH/zasebnost-in-piskoti/",
       "delay": 3000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 1.5
     }
   ]
 }
