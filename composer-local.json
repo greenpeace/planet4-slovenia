@@ -1,16 +1,15 @@
 {
-	"name": "greenpeace/planet4-slovenia",
-	"description": "Greenpeace P4 Slovenia",
-	"license": "MIT",
-	"require": {
-		"greenpeace/planet4-child-theme-slovenia" : "*",
-		"greenpeace/planet4-plugin-migrated-urls": "0.0.1"
-	},
-	"scripts": {
-		"core:language": "wp language core install sl_SI; wp language core activate sl_SI",
-		"site:custom": [
-			"@core:language"
-		]
+    "name": "greenpeace/planet4-slovenia",
+    "description": "Greenpeace P4 Slovenia",
+    "license": "MIT",
+    "require": {
+        "greenpeace/planet4-child-theme-slovenia" : "*"
+    },
+    "scripts": {
+        "core:language": "wp language core install sl_SI; wp language core activate sl_SI",
+        "site:custom": [
+            "@core:language"
+        ]
 
-	}
+    }
 }
