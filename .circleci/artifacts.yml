@@ -10,7 +10,6 @@ job_environments:
     GCLOUD_CLUSTER: p4-development
     HELM_NAMESPACE: develop
     HELM_RELEASE: planet4-slovenia
-    NEWRELIC_APPNAME: P4 Slovenia Development
     WP_DB_NAME: planet4-slovenia_wordpress_develop
     WP_STATELESS_BUCKET: planet4-slovenia-stateless-develop
   release_build_env: &release_build_env
@@ -23,7 +22,6 @@ job_environments:
     GOOGLE_PROJECT_ID: planet4-production
     HELM_NAMESPACE: slovenia
     HELM_RELEASE: planet4-slovenia-release
-    NEWRELIC_APPNAME: P4 Slovenia Release
     WP_DB_NAME: planet4-slovenia_wordpress_release
     WP_STATELESS_BUCKET: planet4-slovenia-stateless-release
   production_environment: &production_environment
@@ -34,6 +32,5 @@ job_environments:
     HELM_NAMESPACE: slovenia
     HELM_RELEASE: planet4-slovenia-master
     MIN_REPLICA_COUNT: 2
-    NEWRELIC_APPNAME: P4 Slovenia Production
     WP_DB_NAME: planet4-slovenia_wordpress_master
     WP_STATELESS_BUCKET: planet4-slovenia-stateless
