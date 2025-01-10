@@ -4,7 +4,8 @@
   "license": "MIT",
   "require": {
     "greenpeace/planet4-child-theme-slovenia" : "dev-main",
-    "plugins/gravityformshubspot": "*"
+    "plugins/gravityformshubspot": "*",
+    "plugins/gravityformsakismet": "*"
   },
   "scripts": {
     "core:language": "wp language core install sl_SI; wp language core activate sl_SI",
