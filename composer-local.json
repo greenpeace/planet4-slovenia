@@ -5,7 +5,8 @@
   "require": {
     "greenpeace/planet4-child-theme-slovenia" : "dev-main",
     "plugins/gravityformshubspot": "*",
-    "plugins/gravityformsakismet": "*"
+    "plugins/gravityformsakismet": "*",
+    "plugins/gravityformswebhooks": "*"
   },
   "scripts": {
     "core:language": "wp language core install sl_SI; wp language core activate sl_SI",
